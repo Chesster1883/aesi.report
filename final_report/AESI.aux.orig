@@ -1,0 +1,34 @@
+\relax 
+\citation{karlsims}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{2}}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Project goals}{2}}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Method}{2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Genome}{2}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces An expression tree.}}{3}}
+\newlabel{fig:tree}{{1}{3}}
+\newlabel{eq:tree}{{1}{3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Phenome}{3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Meta language}{3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4}Fitness function}{3}}
+\newlabel{eq:ffeval}{{2}{3}}
+\newlabel{anatomy}{{5.2}{4}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces The robot anatomy}}{4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.5}Evolve}{4}}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Results}{4}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Background information}{4}}
+\newlabel{bi}{{5}{4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}RoboCode Game}{4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Robot Anatomy}{4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3}RoboCode rules}{4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.4}Programming the Robot}{5}}
+\@writefile{toc}{\contentsline {section}{\numberline {6}Planning}{6}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.1}Documentation}{6}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.2}Initiation}{6}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.3}Genetic programming, single bots}{6}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.4}Test phase}{6}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.5}Genetic programming, teams}{6}}
+\bibstyle{agsm}
+\bibdata{ref}
+\bibcite{karlsims}{{1}{1994}{{Sims}}{{}}}
+\@writefile{toc}{\contentsline {section}{\numberline {A}Planning}{8}}
+\newlabel{planning}{{A}{8}}
