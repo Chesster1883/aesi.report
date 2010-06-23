@@ -1,0 +1,92 @@
+Informatie over wat hoe wanneer moet en voor hoeveel.
+
+==== Werkplan 5% voor begrijpelijk, relevant:
+@ donderdag 3 juni 
+ * Wat is het probleem
+ * Hoe pakken we dit aan 
+probleemstelling, achtergrond informatie, beschrijving aanpak
+
+==== Presentatie werkplan 5% voor begrijpelijk relevant
+@ donderdag 3 juni 9:30 - 11
+ 
+deel 1:
+    tijd: 1 minuut
+    niveau: middelbare school leraar
+    doel: wat gaan we laten zien op het eind?
+    antwoord: onze bots, genetisch en designed laten vechten tegen
+        andere bots in teams but also alone.
+
+deel 2:
+    tijd: 2 minuten
+    niveau: middelbare school leraar
+    doel: waarom is het interessant en niet triviaal
+    antwoord: AI toegepast, in dit geval op een AI voor een spel. 
+       Optimale resultaten behalen met minimale middelen (processing time,
+       bot limitations).  
+
+deel 3:
+    tijd: 3 minuten
+    niveau: AI!!!
+    doel: welke oplossingen gaan we proberen, waar is nog geen 
+        oplossing voor en wat lijken obstakels? 
+    antwoord: 
+         We hebben twee aanpakken, eentje gaat over het zelf 
+        bedenken/vinden van strategieen de ander gaat over genetic
+        algoritms loslaten op bots(/teams???).
+         Bij teams is tot nu toe de beste strategie gebleken om zo sterk 
+        mogelijke bots in het team te stoppen, met basic team kennis
+        (friendly fire, not ramming team mates) en geen grote strategie. 
+        Dit moet beter kunnen maar er zijn waarschijnlijk redenen dat dit
+        zo weinig voorkomt. Oplossingen kunnen gevonden worden in 
+        ervaring in dit soort spellen, militaire tactieken, natuur 
+        (dierenrijk???).
+
+deel 4:
+    tijd: 4 minuten
+   niveau: AI!!!
+    doel: wat zijn deeltaken, wie doet wat, tijdsplanning, wat moeten
+        we nog krijgen, verwerven en opzoeken, wat doen we als een 
+        probleem niet word opgelost
+    antwoord: 
+        Deeltaken; 
+WIE DIT IN HET VERSLAG ZET, SMS MAARTEN INJA @ 0644757028, ANDERS DAN STA IK MORGEN 
+EXTRA VROEG OP OM DIT TE DOEN OF DOE HET NA HET BETABANDJES AVOND GEBEUREN
+ALSO, CAPSLOCK IS CRUISE CONTROL VOOR COOL
+        general:
+         meta taal, j-roy, waard
+         report verantwoordelijkheid, j-roy
+         presentatie verantwoordelijkheid, waard
+         code overzicht (functionaliteit/optimalizatie), verantwoordelijkheid, inja 
+         testen (benchmarking) v/d bots, inja
+         zoeken van vergelijkings materiaal, inspecteren en gebruiken competitie, j-roy
+    
+        single bots:
+         research: wat zijn goede bots, j-roy 
+         basic calculations (tracking, line of fire, etc), waard
+         optimizing astrobot (zelf verzinnen en namaken), j-roy
+
+        teams:
+         basic team tactics (friendly fire, etc), inja 
+         advanced tactics (zelf verzinnen), waard 
+         leader AI: waard
+         droid AI: inja 
+
+        genetics:
+         research: HOE?!?!, j-roy 
+         generic single, j-roy, inja 
+         generic teams, j-roy, waard 
+          
+          
+
+==== Half weg rapportage 5% voor begrijpelijk, kwaliteit
+
+==== Product 50% voor kwaliteit, verzorging demo
+
+==== Eindpresentatie 15% voor begrijpelijk, relevant, verzorgd
+
+==== Verslag 15% voor overzichtelijk, informatief
+
+==== Groepsgedrag 10% voor samenwerking, contact opdrachtgever, aanwezigheid
+
+
+

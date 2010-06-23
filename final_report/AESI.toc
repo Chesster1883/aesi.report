@@ -1,0 +1,21 @@
+\contentsline {section}{\numberline {1}Introduction}{2}
+\contentsline {section}{\numberline {2}Project goals}{2}
+\contentsline {section}{\numberline {3}Method}{2}
+\contentsline {subsection}{\numberline {3.1}Genotype}{2}
+\contentsline {subsection}{\numberline {3.2}Phenotype}{3}
+\contentsline {subsection}{\numberline {3.3}Meta language}{3}
+\contentsline {subsection}{\numberline {3.4}Fitness function}{5}
+\contentsline {subsection}{\numberline {3.5}Evolve}{5}
+\contentsline {section}{\numberline {4}Results}{5}
+\contentsline {section}{\numberline {5}Background information}{5}
+\contentsline {subsection}{\numberline {5.1}RoboCode Game}{5}
+\contentsline {subsection}{\numberline {5.2}Robot Anatomy}{6}
+\contentsline {subsection}{\numberline {5.3}RoboCode rules}{6}
+\contentsline {subsection}{\numberline {5.4}Programming the Robot}{6}
+\contentsline {section}{\numberline {6}Planning}{7}
+\contentsline {subsection}{\numberline {6.1}Documentation}{7}
+\contentsline {subsection}{\numberline {6.2}Initiation}{7}
+\contentsline {subsection}{\numberline {6.3}Genetic programming, single bots}{7}
+\contentsline {subsection}{\numberline {6.4}Test phase}{7}
+\contentsline {subsection}{\numberline {6.5}Genetic programming, teams}{7}
+\contentsline {section}{\numberline {A}Planning}{9}
