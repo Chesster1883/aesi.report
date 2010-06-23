@@ -7,7 +7,7 @@
 \begin{document}
 
 \section{Problems}
-\ref{sec:problems}
+\label{sec:problems}
 \subsection{JGAP Framework}
 Our first decision to program in the JGAP Framework was a really bad one. Besides the days of effort we put into setting up JGAP we also lost a lot of time
 attempting to get JGAP to work. Of course JGAP did something but not at all what we wanted it to do or what we expected. \\
@@ -83,34 +83,84 @@ chromosomes always survived by implementing algorithm \ref{alg:main}.
 \label{alg:main}
 \end{algorithm}
 
-After the first simulations it became clear that not everything was going as well as expected. The robots still devolved extremely even though this was thought now to be 
-impossible. The textual output of the program now indicated what was happening but not in an easy fashion. We needed a graphical repreentation of the fitness values 
-throughout the evolution so we can easily in, one moment, see when in time the best fitness value was evolved and what the circumstances were. This helped us a lot in later
-stages of our project, both in debugging and performance evaluations.
+After the first simulations it became clear that not everything was going as well as expected. While the robots did not seem to deevolve mutated chromosomes did not seem 
+to have any improvements. New fitness values were similar and sometimes low and sometimes high. This happened even though new chromosomes should be only slightly different
+from the best chromosomes. Even with our newly gained debug capabilities and advantages of not using JGAP but our code we could not figure this one out. We needed
+a graphical representation of the fitness values throughout the evolution process so we can easily, with one glance find out when in time what fitness value was 
+achieved. This helped u a lot, also in later stages of our project. Both in debugging and performance evaluations of parameters.  \\
 
 We plot the following three values: the biggest fitness value in red, the average fitness value of the total population in blue and the average fitness value of the 
-newly mutated chromosomes in a population in green. The first results explain what is going on.
+newly mutated chromosomes in a population in green. The first results, shown in figure \ref{fig:result_1} clearly explain what is going on.\\
 
-
-\begin{figure}
+\begin{figure}[h!]
   \centering
-  \subfloat[After 7 rounds]{\label{fig:1_1}\includegraphics[width=0.3\textwidth]{1_1}}
-  \subfloat[After 33 rounds]{\label{fig:1_2}\includegraphics[width=0.3\textwidth]{1_2}}
-  \subfloat[After 65 rounds]{\label{fig:1_3}\includegraphics[width=0.3\textwidth]{1_3}}
+  \subfloat[3.7 After 7 rounds ]{\label{fig:result_1_1}\includegraphics[width=0.3\textwidth]{result_1_1}}
+  \subfloat[9.5 After 33 rounds]{\label{fig:result_1_2}\includegraphics[width=0.3\textwidth]{result_1_2}}
+  \subfloat[35 After 65 rounds]{\label{fig:result_1_3}\includegraphics[width=0.3\textwidth]{result_1_3}}
   \caption{Graphical representation of fitness values throughout generations at different times}
-  \label{fig:firstResults}
+  \label{fig:result_1}
 \end{figure}
 
+The results clearly show that the highest fitness value remains in the population. It also indicates that the top fitness values remain in the population as the average
+does not decrease. However, the average of newly mutated chromosomes is always dissapointingly low. This was thought to be extremely unlikely as one simple mutation should
+not have such a major impact that the fitness value drops to zero. In the mean time, the best robots showed promising results! \\
 
+For a while we had no idea what was going on. When we discovered that sometimes the best robot the program wrote to a file wasn't actually the best robot in the program
+that we build in a check that reevalutes the complete population every 10 evolution rounds. The result is shown in figure \ref{fig:result_2}.
 
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.5\textwidth]{result_2}
+    \caption{The results with a reevaluation every 10 rounds}
+    \label{fig:result_2}
+\end{figure}
 
+It seemed the fitness value was constant but the chromosomes continued to evolve. After examining our algorithm even further we were still unable to find any bugs. 
+When we almost gave up we remembered how Java does not always stores a copy of an object but actually a copy of the reference to the object. This would explain 
+everything and with the Java/Eclipse debugger we could validate this. The easy fix was to clone our chromosomes. \\
 
+The first results proved promising but still not what we expected. After more research we learned we had to clone every object, and not just the chromosomes. Our program
+stores objects in objects using arrays. We assumed incorrectly cloning the first layer (chromosome) would be sufficient, instead we had to clone up till the deepest 
+stored objects in our program. Every layer (see figure \ref{fig:layers}) of our Program had to be cloned in a specific manner. It took us a lot of time to figure out that
+ this actually had to be done for each layer. Especially the last layer, the \textit{ExpressionTree} which is recursively stored was tricky. \\
 
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.5\textwidth]{layers}
+    \caption{The depth of our program depends on the depth of an \textit{ExpressionTree}}
+    \label{fig:layers}
+\end{figure} 
 
+After this ephiphany implementation was easy and we could finally start evolving. As we had expected in the beginning, robots did not devolve and when they did only 
+minimally. The results in figure \ref{fig:result_3} clearly shows a rising average fitness value! The ninetieth generation was able to deliver robots that could beat
+our default opponent \textit{Spinbot}. We were very happy with this! 
 
+\begin{figure}[h!]
+  \centering
+  \subfloat[41 After 41 rounds]{\label{fig:result_3_1}\includegraphics[width=0.4\textwidth]{result_3_1}}
+  \subfloat[120 After 102 rounds]{\label{fig:result_3_2}\includegraphics[width=0.4\textwidth]{result_3_2}}
+  \caption{Graphical representation of fitness values throughout generations at different times showing correct results.}
+  \label{fig:result_3}
+\end{figure}
 
+\subsection{Creating our own Framework, a Good Decision?}
+% perhaps we should put this in results somehow/somewhere
+Creating framework definitely helped us find, identify and solve the problems. Our well structured code now allows us to easily change parameters and even basic 
+functioning of 
+the program. However, we currently do not know if the unexpected results produced by JGAP were produced by the same kind of programming mistakes. If this is the case some
+of the problems might not have been caused by JGAP. \\
 
+While it is easy to change the parameters and basic functioning of the program, changing something more advanced such as the manner on which the program selects the
+best genes costs significantly more time. Perhaps even more time in our framework then in it would have had in JGAPs. We had no time left to do this and as a result of
+ this the behaviour of a robot is fixed early on. \\
 
+For example, there are multiple efficient methods to gather information. The robot could scan the entire room by turning the radar continuously or the robot could
+keep the radar fixed on the target. It is generally accepted that the latter method is more efficient. However, when robots in earlier generations evolve the former 
+method it is almost impossible to evolve the different, better method as there are multiple evolution cycles needed to evolve to the different information gathering
+ method. In the mean time, while evolving, it has no information gathering method making it extremely unlikely that the robot achieves an high enough fitness value to
+survive and evolve further.  \\
+
+There are two things that could fix this. We could select the genes that survive based on their fitness value and a chance or we could implement cross mutation. 
 
 
 

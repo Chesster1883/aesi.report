@@ -1,4 +1,4 @@
-This is pdfeTeXk, Version 3.141592-1.21a-2.2 (Web2C 7.5.4) (format=pdflatex 2009.11.25)  23 JUN 2010 12:12
+This is pdfeTeXk, Version 3.141592-1.21a-2.2 (Web2C 7.5.4) (format=pdflatex 2009.11.25)  23 JUN 2010 17:21
 entering extended mode
  file:line:error style messages enabled.
  %&-line parsing enabled.
@@ -190,10 +190,6 @@ loading : Context Support Macros / PDF (2004.03.26)
 \MPnumerator=\count112
 \everyMPtoPDFconversion=\toks21
 )
-
-LaTeX Warning: Reference `sec:problems' on page 1 undefined on input line 10.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 12--14
 
  []
@@ -235,33 +231,88 @@ Underfull \hbox (badness 10000) in paragraph at lines 61--66
 
  []
 
-[2] <1_1.png, id=20, 602.25pt x 602.25pt>
-File: 1_1.png Graphic file (type png)
- <use 1_1.png>
-<1_2.png, id=21, 602.25pt x 602.25pt>
-File: 1_2.png Graphic file (type png)
- <use 1_2.png>
-<1_3.png, id=22, 602.25pt x 602.25pt>
-File: 1_3.png Graphic file (type png)
- <use 1_3.png> [3 <./1_1.png> <./1_2.png> <./1_3.png>] (./problems.aux)
 
-LaTeX Warning: There were undefined references.
+Underfull \hbox (badness 10000) in paragraph at lines 86--91
 
- ) 
+ []
+
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 92--94
+
+ []
+
+<result_1_1.png, id=17, 602.25pt x 602.25pt>
+File: result_1_1.png Graphic file (type png)
+ <use result_1_1.png>
+<result_1_2.png, id=18, 602.25pt x 602.25pt>
+File: result_1_2.png Graphic file (type png)
+ <use result_1_2.png>
+<result_1_3.png, id=19, 602.25pt x 602.25pt>
+File: result_1_3.png Graphic file (type png)
+ <use result_1_3.png>
+Underfull \hbox (badness 10000) in paragraph at lines 104--107
+
+ []
+
+<result_2.png, id=20, 602.25pt x 602.25pt>
+File: result_2.png Graphic file (type png)
+ <use result_2.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 118--121
+
+ []
+
+[3 <./result_1_1.png> <./result_1_2.png> <./result_1_3.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 122--126
+
+ []
+
+<layers.png, id=30, 467.7475pt x 182.6825pt>
+File: layers.png Graphic file (type png)
+ <use layers.png>
+<result_3_1.png, id=31, 501.875pt x 501.875pt>
+File: result_3_1.png Graphic file (type png)
+ <use result_3_1.png>
+<result_3_2.png, id=32, 501.875pt x 501.875pt>
+File: result_3_2.png Graphic file (type png)
+ <use result_3_2.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 148--152
+
+ []
+
+[4 <./result_2.png> <./layers.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 153--156
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 157--162
+
+ []
+
+[5 <./result_3_1.png> <./result_3_2.png>] (./problems.aux) ) 
 Here is how much of TeX's memory you used:
- 1717 strings out of 94500
- 23707 string characters out of 1176765
- 72989 words of memory out of 1000000
- 4903 multiletter control sequences out of 10000+50000
+ 1744 strings out of 94500
+ 24288 string characters out of 1176765
+ 73059 words of memory out of 1000000
+ 4926 multiletter control sequences out of 10000+50000
  5803 words of font info for 21 fonts, out of 500000 for 2000
  580 hyphenation exceptions out of 1000
  32i,8n,34p,232b,367s stack positions out of 1500i,500n,5000p,200000b,5000s
 PDF statistics:
- 28 PDF objects out of 300000
+ 38 PDF objects out of 300000
  0 named destinations out of 131072
- 16 words of extra memory for PDF output out of 65536
-</usr/share/texmf/fonts/type1/bluesky/cm/cmr8.pfb></usr/share/texmf/fonts/typ
-e1/bluesky/cm/cmti10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr10.pfb></u
-sr/share/texmf/fonts/type1/bluesky/cm/cmbx10.pfb></usr/share/texmf/fonts/type1/
-bluesky/cm/cmbx12.pfb>
-Output written on problems.pdf (3 pages, 99535 bytes).
+ 36 words of extra memory for PDF output out of 65536
+</usr/share/texmf/f
+onts/type1/bluesky/cm/cmr8.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmbx10.
+pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmti10.pfb></usr/share/texmf/fonts
+/type1/bluesky/cm/cmr10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmbx12.pfb
+>
+Output written on problems.pdf (5 pages, 212958 bytes).
