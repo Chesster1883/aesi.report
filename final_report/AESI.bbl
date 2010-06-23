@@ -1,0 +1,16 @@
+\begin{thebibliography}{1}
+
+\bibitem{shichel}
+Y.~Shichel, E.~Ziserman, and M.~Sipper.
+\newblock {GP}-robocode: Using genetic programming to evolve robocode players.
+\newblock In M.~Keijzer, A.~Tettamanzi, P.~Collet, J.~I. {van Hemert}, and
+  M.~Tomassini, editors, {\em Proceedings of the 8th European Conference on
+  Genetic Programming}, volume 3447 of {\em Lecture Notes in Computer Science},
+  pages 143--154, Lausanne, Switzerland, 30 Mar. - 1 Apr. 2005. Springer.
+
+\bibitem{karlsims}
+K.~Sims.
+\newblock {Evolving 3D morphology and behavior by competition}.
+\newblock {\em Artificial Life}, 1(4):353--372, 1994.
+
+\end{thebibliography}
