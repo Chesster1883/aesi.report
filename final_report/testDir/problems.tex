@@ -1,10 +1,13 @@
 \documentclass[a4paper,10pt]{article}
 \usepackage{algorithm}
 \usepackage{algorithmic}
+\usepackage{subfig}
+\usepackage{graphicx}
 
 \begin{document}
 
 \section{Problems}
+\ref{sec:problems}
 \subsection{JGAP Framework}
 Our first decision to program in the JGAP Framework was a really bad one. Besides the days of effort we put into setting up JGAP we also lost a lot of time
 attempting to get JGAP to work. Of course JGAP did something but not at all what we wanted it to do or what we expected. \\
@@ -40,21 +43,19 @@ sometimes resets data to \textit{null}. Once we took care of all these problems 
 
 A short summary of our problems with JGAP.
 
-
-\begin{algorithm}
-\begin{algorithmic}
-\STATE Initialize Population
-\WHILE{true}
-    \STATE Evolve Bottom 50\%
-    \STATE Evaluate Bottom 50\%
-    \STATE Sort Population 50\%
-    \STATE Replace Bottom 50\% With Top 50\%
-\ENDWHILE
-\end{algorithmic}
-\caption{Main program}
-\label{alg:main}
-\end{algorithm}
-
+\begin{enumerate}
+    \item Learning to set up the framework and basic functioning. JAR files, buildpaths, classpaths, Eclipse. It's all very confusing.
+    \item The JGAP Framework worked like a black box. Even the input is in a format what you do not want to use and somehow the output is never what you would expect. 
+    \item Horrible documentation. A function needs input, but what format is this input? What does this function even do? At times, event Google could not help us 
+    with this.
+    \item Unecessary functions. What we want is not especially difficult and there is no need for over-complicating things. If we want to select the top X performing
+    chromosomes of our population we do want to go through a chain of registred selectors or find out how or why the configuration is locked or reset. 
+    \item Dismissable results. De-evolving at times without any reason.
+    \item Unexpected behaviour. Some poorly chosen engineering decisions result in forced use of classes we do nothing about. For example the interface 
+    \textit{IChromosome} is restricted to what interfaces are. Even though we want to store addiontal information in such a class, for example a method to create code
+    from a chromosome. This is not possible but it does have a slot for the ApplicationData, which can be any object. This is object is however sometimes, seemingly
+    randomly reset to \textit{null}.  
+\end{enumerate}
 
 \subsection{Leaving JGAP Framework Behind}
 With more and more experience with genetic programming, it became more and more clear that what we needed did not need to be extremely complicated. In the beginning 
@@ -63,17 +64,24 @@ that did exactly what we wanted. Another afternoon was used to rewrite the code 
 structured code we could start running more definitive simulations, debug and expand the potential capabilities of our robots even though we were already behind schedule
 a complete week. \\
 
-Because we were not sure if it was just JGAP or JGAPs settings that were responsible for the previously achieved horrible results we made sure the top performing 
-chromosomes always survived. This resulted in the following algorithm:
+Because we were not sure if it was just JGAP or JGAPs settings that were responsible for the previously achieved
+ horrible results we made sure the top performing 
+chromosomes always survived by implementing algorithm \ref{alg:main}.
 
-\begin{enumerate}
-    \item Initialize the population.
-    \item Evolve the bottom 50\%.
-    \item Evaluate the bottom 50\%.
-    \item Sort the population.
-    \item Copy the top 50\% to the bottom 50\%.
-    \item Restart x 
-\end{enumerate}
+
+\begin{algorithm}
+\begin{algorithmic}
+\STATE Initialize Population
+\WHILE{true}
+    \STATE Evolve Bottom 50\%
+    \STATE Evaluate Bottom 50\%
+    \STATE Sort Population 
+    \STATE Replace Bottom 50\% With Top 50\%
+\ENDWHILE
+\end{algorithmic}
+\caption{Main Evolution Algorithm}
+\label{alg:main}
+\end{algorithm}
 
 After the first simulations it became clear that not everything was going as well as expected. The robots still devolved extremely even though this was thought now to be 
 impossible. The textual output of the program now indicated what was happening but not in an easy fashion. We needed a graphical repreentation of the fitness values 
@@ -82,5 +90,43 @@ stages of our project, both in debugging and performance evaluations.
 
 We plot the following three values: the biggest fitness value in red, the average fitness value of the total population in blue and the average fitness value of the 
 newly mutated chromosomes in a population in green. The first results explain what is going on.
+
+
+\begin{figure}
+  \centering
+  \subfloat[After 7 rounds]{\label{fig:1_1}\includegraphics[width=0.3\textwidth]{1_1}}
+  \subfloat[After 33 rounds]{\label{fig:1_2}\includegraphics[width=0.3\textwidth]{1_2}}
+  \subfloat[After 65 rounds]{\label{fig:1_3}\includegraphics[width=0.3\textwidth]{1_3}}
+  \caption{Graphical representation of fitness values throughout generations at different times}
+  \label{fig:firstResults}
+\end{figure}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   
 \end{document}

@@ -1,10 +1,13 @@
 \documentclass[a4paper,10pt]{article}
 \usepackage{algorithm}
 \usepackage{algorithmic}
+\usepackage{subfig}
+\usepackage{graphicx}
 
 \begin{document}
 
 \section{Problems}
+\label{sec:problems}
 \subsection{JGAP Framework}
 Our first decision to program in the JGAP Framework was a really bad one. Besides the days of effort we put into setting up JGAP we also lost a lot of time
 attempting to get JGAP to work. Of course JGAP did something but not at all what we wanted it to do or what we expected. \\
@@ -61,8 +64,10 @@ that did exactly what we wanted. Another afternoon was used to rewrite the code 
 structured code we could start running more definitive simulations, debug and expand the potential capabilities of our robots even though we were already behind schedule
 a complete week. \\
 
-Because we were not sure if it was just JGAP or JGAPs settings that were responsible for the previously achieved horrible results we made sure the top performing 
-chromosomes always survived. This resulted in the following algorithm:
+Because we were not sure if it was just JGAP or JGAPs settings that were responsible for the previously achieved
+ horrible results we made sure the top performing 
+chromosomes always survived by implementing algorithm \ref{alg:main}.
+
 
 \begin{algorithm}
 \begin{algorithmic}
@@ -74,11 +79,9 @@ chromosomes always survived. This resulted in the following algorithm:
     \STATE Replace Bottom 50\% With Top 50\%
 \ENDWHILE
 \end{algorithmic}
-\caption{Main program}
+\caption{Main Evolution Algorithm}
 \label{alg:main}
 \end{algorithm}
-
-
 
 After the first simulations it became clear that not everything was going as well as expected. The robots still devolved extremely even though this was thought now to be 
 impossible. The textual output of the program now indicated what was happening but not in an easy fashion. We needed a graphical repreentation of the fitness values 
@@ -87,5 +90,43 @@ stages of our project, both in debugging and performance evaluations.
 
 We plot the following three values: the biggest fitness value in red, the average fitness value of the total population in blue and the average fitness value of the 
 newly mutated chromosomes in a population in green. The first results explain what is going on.
+
+
+\begin{figure}[H!]
+  \centering
+  \subfloat[After 7 rounds]{\label{fig:1_1}\includegraphics[width=0.3\textwidth]{1_1}}
+  \subfloat[After 33 rounds]{\label{fig:1_2}\includegraphics[width=0.3\textwidth]{1_2}}
+  \subfloat[After 65 rounds]{\label{fig:1_3}\includegraphics[width=0.3\textwidth]{1_3}}
+  \caption{Graphical representation of fitness values throughout generations at different times}
+  \label{fig:firstResults}
+\end{figure}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   
 \end{document}

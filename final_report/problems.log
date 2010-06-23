@@ -1,4 +1,4 @@
-This is pdfeTeXk, Version 3.141592-1.21a-2.2 (Web2C 7.5.4) (format=pdflatex 2009.11.25)  23 JUN 2010 10:37
+This is pdfeTeXk, Version 3.141592-1.21a-2.2 (Web2C 7.5.4) (format=pdflatex 2009.11.25)  23 JUN 2010 12:12
 entering extended mode
  file:line:error style messages enabled.
  %&-line parsing enabled.
@@ -65,33 +65,141 @@ LaTeX Info: Redefining \addtolength on input line 60.
 \c@ALC@rem=\count93
 \c@ALC@depth=\count94
 \ALC@tlm=\skip45
+)
+(/usr/share/texmf/tex/latex/subfig/subfig.sty
+Package: subfig 2004/01/28 ver: 1.2 subfig package
+
+(/usr/share/texmf/tex/latex/caption/caption.sty
+Package: caption 2004/07/16 v3.0c Customising captions (AS)
+\captionmargin=\dimen105
+\captionwidth=\dimen106
+\captionindent=\dimen107
+\captionparindent=\dimen108
+\captionhangindent=\dimen109
+
+(/usr/share/texmf/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks17
+)
+Package caption Info: float package v1.2 (or newer) detected on input line 589.
+
+)
+\c@KVtest=\count95
+\sf@farskip=\skip46
+\sf@captopadj=\dimen110
+\sf@capskip=\skip47
+\sf@nearskip=\skip48
+\c@subfigure=\count96
+\c@subfigure@save=\count97
+\c@lofdepth=\count98
+\c@subtable=\count99
+\c@subtable@save=\count100
+\c@lotdepth=\count101
+\sf@top=\skip49
+\sf@bottom=\skip50
+)
+(/usr/share/texmf/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf/tex/latex/graphics/graphics.sty
+Package: graphics 2001/07/07 v1.0n Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/share/texmf/tex/latex/graphics/graphics.cfg
+File: graphics.cfg 2005/02/03 v1.3 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 80.
+
+(/usr/share/texmf/tex/latex/graphics/pdftex.def
+File: pdftex.def 2002/06/19 v0.03k graphics/color for pdftex
+\Gread@gobject=\count102
+))
+\Gin@req@height=\dimen111
+\Gin@req@width=\dimen112
 ) (./problems.aux)
 \openout1 = `problems.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
 
-Underfull \hbox (badness 10000) in paragraph at lines 9--11
+(/usr/share/texmf/tex/latex/ms/ragged2e.sty
+Package: ragged2e 2003/03/25 v2.04 ragged2e Package (MS)
+
+(/usr/share/texmf/tex/latex/ms/everysel.sty
+Package: everysel 1999/06/08 v1.03 EverySelectfont Package (MS)
+LaTeX Info: Redefining \selectfont on input line 125.
+)
+\CenteringLeftskip=\skip51
+\RaggedLeftLeftskip=\skip52
+\RaggedRightLeftskip=\skip53
+\CenteringRightskip=\skip54
+\RaggedLeftRightskip=\skip55
+\RaggedRightRightskip=\skip56
+\CenteringParfillskip=\skip57
+\RaggedLeftParfillskip=\skip58
+\RaggedRightParfillskip=\skip59
+\JustifyingParfillskip=\skip60
+\CenteringParindent=\skip61
+\RaggedLeftParindent=\skip62
+\RaggedRightParindent=\skip63
+\JustifyingParindent=\skip64
+)
+(/usr/share/texmf/tex/context/base/supp-pdf.tex
+(/usr/share/texmf/tex/context/base/supp-mis.tex
+loading : Context Support Macros / Miscellaneous (2004.10.26)
+\protectiondepth=\count103
+\scratchcounter=\count104
+\scratchtoks=\toks18
+\scratchdimen=\dimen113
+\scratchskip=\skip65
+\scratchmuskip=\muskip10
+\scratchbox=\box28
+\scratchread=\read1
+\scratchwrite=\write3
+\zeropoint=\dimen114
+\onepoint=\dimen115
+\onebasepoint=\dimen116
+\minusone=\count105
+\thousandpoint=\dimen117
+\onerealpoint=\dimen118
+\emptytoks=\toks19
+\nextbox=\box29
+\nextdepth=\dimen119
+\everyline=\toks20
+\!!counta=\count106
+\!!countb=\count107
+\recursecounter=\count108
+)
+loading : Context Support Macros / PDF (2004.03.26)
+\nofMPsegments=\count109
+\nofMParguments=\count110
+\MPscratchCnt=\count111
+\MPscratchDim=\dimen120
+\MPnumerator=\count112
+\everyMPtoPDFconversion=\toks21
+)
+
+LaTeX Warning: Reference `sec:problems' on page 1 undefined on input line 10.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--14
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 12--16
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 17--19
+Underfull \hbox (badness 10000) in paragraph at lines 15--19
 
  []
 
@@ -101,41 +209,59 @@ Underfull \hbox (badness 10000) in paragraph at lines 20--22
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 23--26
+Underfull \hbox (badness 10000) in paragraph at lines 23--25
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 27--32
+Underfull \hbox (badness 10000) in paragraph at lines 26--29
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 33--40
+Underfull \hbox (badness 10000) in paragraph at lines 30--35
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--43
 
  []
 
 [1
 
 {/home/Administrator/.texmf/var/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 60--65
+Underfull \hbox (badness 10000) in paragraph at lines 61--66
 
  []
 
-[2] [3] (./problems.aux) ) 
+[2] <1_1.png, id=20, 602.25pt x 602.25pt>
+File: 1_1.png Graphic file (type png)
+ <use 1_1.png>
+<1_2.png, id=21, 602.25pt x 602.25pt>
+File: 1_2.png Graphic file (type png)
+ <use 1_2.png>
+<1_3.png, id=22, 602.25pt x 602.25pt>
+File: 1_3.png Graphic file (type png)
+ <use 1_3.png> [3 <./1_1.png> <./1_2.png> <./1_3.png>] (./problems.aux)
+
+LaTeX Warning: There were undefined references.
+
+ ) 
 Here is how much of TeX's memory you used:
- 509 strings out of 94500
- 5869 string characters out of 1176765
- 56317 words of memory out of 1000000
- 3739 multiletter control sequences out of 10000+50000
- 5504 words of font info for 20 fonts, out of 500000 for 2000
+ 1717 strings out of 94500
+ 23707 string characters out of 1176765
+ 72989 words of memory out of 1000000
+ 4903 multiletter control sequences out of 10000+50000
+ 5803 words of font info for 21 fonts, out of 500000 for 2000
  580 hyphenation exceptions out of 1000
- 23i,4n,19p,212b,367s stack positions out of 1500i,500n,5000p,200000b,5000s
+ 32i,8n,34p,232b,367s stack positions out of 1500i,500n,5000p,200000b,5000s
 PDF statistics:
- 22 PDF objects out of 300000
+ 28 PDF objects out of 300000
  0 named destinations out of 131072
- 1 words of extra memory for PDF output out of 65536
-</usr/share/texmf/fonts/type1/bluesky/cm/cmbx10.pfb><
-/usr/share/texmf/fonts/type1/bluesky/cm/cmti10.pfb></usr/share/texmf/fonts/type
-1/bluesky/cm/cmr10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmbx12.pfb>
-Output written on problems.pdf (3 pages, 41249 bytes).
+ 16 words of extra memory for PDF output out of 65536
+</usr/share/texmf/fonts/type1/bluesky/cm/cmr8.pfb></usr/share/texmf/fonts/typ
+e1/bluesky/cm/cmti10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr10.pfb></u
+sr/share/texmf/fonts/type1/bluesky/cm/cmbx10.pfb></usr/share/texmf/fonts/type1/
+bluesky/cm/cmbx12.pfb>
+Output written on problems.pdf (3 pages, 99535 bytes).
