@@ -7,15 +7,19 @@
 \contentsline {subsection}{\numberline {3.4}Fitness function}{5}
 \contentsline {subsection}{\numberline {3.5}Evolve}{5}
 \contentsline {section}{\numberline {4}Results}{5}
-\contentsline {section}{\numberline {5}Background information}{5}
-\contentsline {subsection}{\numberline {5.1}RoboCode Game}{5}
-\contentsline {subsection}{\numberline {5.2}Robot Anatomy}{6}
-\contentsline {subsection}{\numberline {5.3}RoboCode rules}{6}
-\contentsline {subsection}{\numberline {5.4}Programming the Robot}{6}
-\contentsline {section}{\numberline {6}Planning}{7}
-\contentsline {subsection}{\numberline {6.1}Documentation}{7}
-\contentsline {subsection}{\numberline {6.2}Initiation}{7}
-\contentsline {subsection}{\numberline {6.3}Genetic programming, single bots}{7}
-\contentsline {subsection}{\numberline {6.4}Test phase}{7}
-\contentsline {subsection}{\numberline {6.5}Genetic programming, teams}{7}
-\contentsline {section}{\numberline {A}Planning}{9}
+\contentsline {section}{\numberline {5}Problems}{5}
+\contentsline {subsection}{\numberline {5.1}JGAP Framework}{5}
+\contentsline {subsection}{\numberline {5.2}Leaving JGAP Framework Behind}{6}
+\contentsline {subsection}{\numberline {5.3}Creating our own Framework, a Good Decision?}{8}
+\contentsline {section}{\numberline {6}Background information}{9}
+\contentsline {subsection}{\numberline {6.1}RoboCode Game}{9}
+\contentsline {subsection}{\numberline {6.2}Robot Anatomy}{9}
+\contentsline {subsection}{\numberline {6.3}Robocode rules}{9}
+\contentsline {subsection}{\numberline {6.4}Programming the Robot}{9}
+\contentsline {section}{\numberline {7}Planning}{11}
+\contentsline {subsection}{\numberline {7.1}Documentation}{11}
+\contentsline {subsection}{\numberline {7.2}Initiation}{11}
+\contentsline {subsection}{\numberline {7.3}Genetic programming, single bots}{11}
+\contentsline {subsection}{\numberline {7.4}Test phase}{11}
+\contentsline {subsection}{\numberline {7.5}Genetic programming, teams}{11}
+\contentsline {section}{\numberline {A}Planning}{13}
